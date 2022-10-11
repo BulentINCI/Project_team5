@@ -1,2 +1,4 @@
-package stepdefinitions.ui;public class MedunnaHealthStepDefs {
+package stepdefinitions.ui;
+
+public class MedunnaHealthStepDefs {
 }

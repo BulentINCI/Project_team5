@@ -15,14 +15,14 @@ public class DBUtils {
     private static Statement statement;
     private static ResultSet resultSet;
     /**
-     * DBUtils.createConnection(); -> to connect to teh database
+     * DBUtils.createConnection(); -> to connect to the database
      */
     public static void createConnection() {
-        String url = "jdbc:postgresql://157.230.48.97:5432/gmibank_db";
-        String username="...";
-        String password="...";
+        String database_url = ConfigReader.getProperty("database_url");
+        String username=ConfigReader.getProperty("db_username");
+        String password=ConfigReader.getProperty("db_password");
         try {
-            connection = DriverManager.getConnection(url, username, password);
+            connection = DriverManager.getConnection(database_url, username, password);
         } catch (SQLException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
