@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="61.836">
+    <testcase classname="Negative_User_Registration_Attempt" name="_2" time="14.527">
+        <system-out><![CDATA[Given user is on the registration page......................................passed
+When user puts in a ssn "77-845-6789".......................................passed
+And user puts in a first name as "ahmet"....................................passed
+And user puts in a last name as "kayad".....................................passed
+And user puts in a username as "akayaad"....................................passed
+And user puts in an email as "akayas@email.com".............................passed
+When user puts in "Adfg123@." and confirm the new password..................passed
+And user registers the information..........................................passed
+Then registration is not completed successfully.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Negative_User_Registration_Attempt" name="_3" time="4.307">
+        <system-out><![CDATA[Given user is on the registration page......................................passed
+When user puts in a ssn "777-8-46789".......................................passed
+And user puts in a first name as "ahmet"....................................passed
+And user puts in a last name as "kayad".....................................passed
+And user puts in a username as "akayaad"....................................passed
+And user puts in an email as "akayas@email.com".............................passed
+When user puts in "Adfg123@." and confirm the new password..................passed
+And user registers the information..........................................passed
+Then registration is not completed successfully.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Negative_User_Registration_Attempt" name="_4" time="4.394">
+        <system-out><![CDATA[Given user is on the registration page......................................passed
+When user puts in a ssn "7-8445-6789".......................................passed
+And user puts in a first name as "ahmet"....................................passed
+And user puts in a last name as "kayad".....................................passed
+And user puts in a username as "akayaad"....................................passed
+And user puts in an email as "akayas@email.com".............................passed
+When user puts in "Adfg123@." and confirm the new password..................passed
+And user registers the information..........................................passed
+Then registration is not completed successfully.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Negative_User_Registration_Attempt" name="_5" time="5.068">
+        <system-out><![CDATA[Given user is on the registration page......................................passed
+When user puts in a ssn "778-45-6789".......................................passed
+And user puts in a first name as "".........................................passed
+And user puts in a last name as "kayad".....................................passed
+And user puts in a username as "akayaad"....................................passed
+And user puts in an email as "akayas@email.com".............................passed
+When user puts in "Adfg123@." and confirm the new password..................passed
+And user registers the information..........................................passed
+Then registration is not completed successfully.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Negative_User_Registration_Attempt" name="_6" time="4.824">
+        <system-out><![CDATA[Given user is on the registration page......................................passed
+When user puts in a ssn "778-85-6789".......................................passed
+And user puts in a first name as "a"........................................passed
+And user puts in a last name as ""..........................................passed
+And user puts in a username as "akayaad"....................................passed
+And user puts in an email as "akayas@email.com".............................passed
+When user puts in "Adfg123@." and confirm the new password..................passed
+And user registers the information..........................................passed
+Then registration is not completed successfully.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Negative_User_Registration_Attempt" name="_7" time="4.247">
+        <system-out><![CDATA[Given user is on the registration page......................................passed
+When user puts in a ssn "778-85-6789".......................................passed
+And user puts in a first name as "a"........................................passed
+And user puts in a last name as "k".........................................passed
+And user puts in a username as ""...........................................passed
+And user puts in an email as "akayas@email.com".............................passed
+When user puts in "Adfg123@." and confirm the new password..................passed
+And user registers the information..........................................passed
+Then registration is not completed successfully.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Negative_User_Registration_Attempt" name="_8" time="4.526">
+        <system-out><![CDATA[Given user is on the registration page......................................passed
+When user puts in a ssn "778-85-6789".......................................passed
+And user puts in a first name as "a"........................................passed
+And user puts in a last name as "k".........................................passed
+And user puts in a username as "akayaad"....................................passed
+And user puts in an email as "".............................................passed
+When user puts in "Adfg123@." and confirm the new password..................passed
+And user registers the information..........................................passed
+Then registration is not completed successfully.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Negative_User_Registration_Attempt" name="_9" time="5.066">
+        <system-out><![CDATA[Given user is on the registration page......................................passed
+When user puts in a ssn "778-85-6789".......................................passed
+And user puts in a first name as "a"........................................passed
+And user puts in a last name as "k".........................................passed
+And user puts in a username as "akayaad"....................................passed
+And user puts in an email as "akayas@"......................................passed
+When user puts in "Adfg123@." and confirm the new password..................passed
+And user registers the information..........................................passed
+Then registration is not completed successfully.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Negative_User_Registration_Attempt" name="_10" time="5.298">
+        <system-out><![CDATA[Given user is on the registration page......................................passed
+When user puts in a ssn "778-85-6789".......................................passed
+And user puts in a first name as "a"........................................passed
+And user puts in a last name as "k".........................................passed
+And user puts in a username as "akayaad"....................................passed
+And user puts in an email as "akayas@email.com".............................passed
+When user puts in "" and confirm the new password...........................passed
+And user registers the information..........................................passed
+Then registration is not completed successfully.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Negative_User_Registration_Attempt" name="_11" time="4.286">
+        <system-out><![CDATA[Given user is on the registration page......................................passed
+When user puts in a ssn "778-85-6789".......................................passed
+And user puts in a first name as "a"........................................passed
+And user puts in a last name as "k".........................................passed
+And user puts in a username as "akayaad"....................................passed
+And user puts in an email as "akayas@email.com".............................passed
+When user puts in "A" and confirm the new password..........................passed
+And user registers the information..........................................passed
+Then registration is not completed successfully.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Negative_User_Registration_Attempt" name="_12" time="4.647">
+        <system-out><![CDATA[Given user is on the registration page......................................passed
+When user puts in a ssn "778-85-6789".......................................passed
+And user puts in a first name as "a"........................................passed
+And user puts in a last name as "k".........................................passed
+And user puts in a username as "akayaad"....................................passed
+And user puts in an email as "akayas@email.com".............................passed
+When user puts in "Asd" and confirm the new password........................passed
+And user registers the information..........................................passed
+Then registration is not completed successfully.............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
