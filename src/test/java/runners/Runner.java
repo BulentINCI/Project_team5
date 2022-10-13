@@ -19,7 +19,7 @@ import java.util.Locale;
         },
         features = "./src/test/resources/features/ui_features",
         glue = {"stepdefinitions"},
-        tags = "@...",
+        tags = "@NegativeRegistrationAttempts",
         dryRun = false
 )
 
