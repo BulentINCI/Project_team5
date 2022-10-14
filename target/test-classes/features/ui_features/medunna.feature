@@ -1,8 +1,6 @@
 @...
 Feature: Feature
 
-
-
   Background:
     Given
 
