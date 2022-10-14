@@ -29,7 +29,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="aed8624f-ef48-44a4-a4cf-d03126089334">
-      <console name="Connection" type="STANDARD" schema="public" session="Main">Select * from appointment</console>
+      <console name="Connection" type="STANDARD" schema="" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
@@ -192,7 +192,6 @@
         <object-type name="FUNCTION" sorting-type="NAME" />
         <object-type name="PROCEDURE" sorting-type="NAME" />
         <object-type name="ARGUMENT" sorting-type="POSITION" />
-        <object-type name="TYPE ATTRIBUTE" sorting-type="POSITION" />
       </sorting>
       <default-editors>
         <object-type name="VIEW" editor-type="SELECTION" />
