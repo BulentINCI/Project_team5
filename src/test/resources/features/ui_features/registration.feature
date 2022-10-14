@@ -1,6 +1,6 @@
 @user_registration
-Feature: Successful_User_Registration
-
+Feature: Registration
+  
   Background:
     Given user is on the registration page
 
@@ -17,5 +17,3 @@ Feature: Successful_User_Registration
     Examples:
       |ssn        |firstname|lastname|username|email          |password|
       |779-45-6789|ahmet    |kaya    |akayaa   |akaya@email.com|Adfg123@.|
-
-
