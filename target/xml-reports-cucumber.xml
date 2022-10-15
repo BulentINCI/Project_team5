@@ -1,87 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="24.019">
-    <testcase classname="Unknown" name="_2" time="11.592">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.343">
+    <testcase classname="Registration_lastname_negative_cases" name="_2" time="11.93">
         <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "12-2424-123" and moves to next field...............passed
-Then user gets a warning of an invalid field entry..........................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Unknown" name="_3" time="1.014">
-        <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "123-424-123" and moves to next field...............passed
-Then user gets a warning of an invalid field entry..........................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Unknown" name="_4" time="0.889">
-        <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "123-4-34123" and moves to next field...............passed
-Then user gets a warning of an invalid field entry..........................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Unknown" name="_5" time="0.965">
-        <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "456-424-1232" and moves to next field..............passed
-Then user gets a warning of an invalid field entry..........................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Unknown" name="_6" time="0.87">
-        <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "123-424-123" and moves to next field...............passed
-Then user gets a warning of an invalid field entry..........................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Unknown" name="_7" time="0.833">
-        <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "123-424-23" and moves to next field................passed
-Then user gets a warning of an invalid field entry..........................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Unknown" name="_8" time="0.901">
-        <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "000-23-4235" and moves to next field...............passed
-Then user gets a warning of an invalid field entry..........................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Unknown" name="_9" time="0.883">
-        <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "900-24-1423" and moves to next field...............passed
-Then user gets a warning of an invalid field entry..........................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Unknown" name="_10" time="0.892">
-        <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "956-24-1243" and moves to next field...............passed
-Then user gets a warning of an invalid field entry..........................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Unknown" name="_11" time="0.882">
-        <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "666-24-1423" and moves to next field...............passed
-Then user gets a warning of an invalid field entry..........................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Unknown" name="_12" time="0.953">
-        <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "34.-42-1523" and moves to next field...............passed
-Then user gets a warning of an invalid field entry..........................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Unknown" name="_13" time="0.848">
-        <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "54?-42-1523" and moves to next field...............passed
-Then user gets a warning of an invalid field entry..........................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Unknown" name="_14" time="0.893">
-        <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "65&-42-1523" and moves to next field...............passed
-Then user gets a warning of an invalid field entry..........................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Unknown" name="_15" time="0.987">
-        <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "34A-42-1523" and moves to next field...............passed
-Then user gets a warning of an invalid field entry..........................passed
+When user puts in a first name as ""........................................passed
+Then user gets a warning of a blank field entry.............................passed
+And user closes the browser.................................................passed
 ]]></system-out>
     </testcase>
 </testsuite>
