@@ -3,6 +3,7 @@ package stepdefinitions.ui;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import pages.RegistrationPage;
 import utilities.ConfigReader;
 import utilities.Driver;
@@ -19,9 +20,10 @@ public class RegistrationStepDefs {
         registrationPage.linkOnHomePage.click();
         registrationPage.linkRegister.click();
     }
-    @When("user puts in a ssn {string}")
-    public void user_puts_in_his_her(String ssn) {
+    @When("user puts in a ssn {string} and moves to next field")
+    public void user_puts_in_a_ssn_and_moves_to_next_field(String ssn) {
         registrationPage.SSN.sendKeys(ssn);
+        registrationPage.SSN.sendKeys(Keys.TAB);
     }
 
     @When("user puts in a first name as {string}")
@@ -62,6 +64,18 @@ public class RegistrationStepDefs {
         Assert.assertTrue(registrationPage.nonCompleteFieldsAlert.isDisplayed());
         Driver.getDriver().navigate().refresh();
     }
+
+
+    @Then("ssn field does not give any errors")
+    public void ssn_field_does_not_give_any_errors() {
+        Assert.assertTrue(registrationPage.validEntryCheck.isDisplayed());
+    }
+
+    @Then("user gets a warning of an invalid field entry")
+    public void user_gets_a_warning_of_an_invalid_field_entry() {
+       Assert.assertTrue(registrationPage.invalidEntryAlert.isDisplayed());
+    }
+
 
 }
 

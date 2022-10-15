@@ -1,135 +1,87 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="61.836">
-    <testcase classname="Negative_User_Registration_Attempt" name="_2" time="14.527">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="24.019">
+    <testcase classname="Unknown" name="_2" time="11.592">
         <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "77-845-6789".......................................passed
-And user puts in a first name as "ahmet"....................................passed
-And user puts in a last name as "kayad".....................................passed
-And user puts in a username as "akayaad"....................................passed
-And user puts in an email as "akayas@email.com".............................passed
-When user puts in "Adfg123@." and confirm the new password..................passed
-And user registers the information..........................................passed
-Then registration is not completed successfully.............................passed
+When user puts in a ssn "12-2424-123" and moves to next field...............passed
+Then user gets a warning of an invalid field entry..........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Negative_User_Registration_Attempt" name="_3" time="4.307">
+    <testcase classname="Unknown" name="_3" time="1.014">
         <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "777-8-46789".......................................passed
-And user puts in a first name as "ahmet"....................................passed
-And user puts in a last name as "kayad".....................................passed
-And user puts in a username as "akayaad"....................................passed
-And user puts in an email as "akayas@email.com".............................passed
-When user puts in "Adfg123@." and confirm the new password..................passed
-And user registers the information..........................................passed
-Then registration is not completed successfully.............................passed
+When user puts in a ssn "123-424-123" and moves to next field...............passed
+Then user gets a warning of an invalid field entry..........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Negative_User_Registration_Attempt" name="_4" time="4.394">
+    <testcase classname="Unknown" name="_4" time="0.889">
         <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "7-8445-6789".......................................passed
-And user puts in a first name as "ahmet"....................................passed
-And user puts in a last name as "kayad".....................................passed
-And user puts in a username as "akayaad"....................................passed
-And user puts in an email as "akayas@email.com".............................passed
-When user puts in "Adfg123@." and confirm the new password..................passed
-And user registers the information..........................................passed
-Then registration is not completed successfully.............................passed
+When user puts in a ssn "123-4-34123" and moves to next field...............passed
+Then user gets a warning of an invalid field entry..........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Negative_User_Registration_Attempt" name="_5" time="5.068">
+    <testcase classname="Unknown" name="_5" time="0.965">
         <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "778-45-6789".......................................passed
-And user puts in a first name as "".........................................passed
-And user puts in a last name as "kayad".....................................passed
-And user puts in a username as "akayaad"....................................passed
-And user puts in an email as "akayas@email.com".............................passed
-When user puts in "Adfg123@." and confirm the new password..................passed
-And user registers the information..........................................passed
-Then registration is not completed successfully.............................passed
+When user puts in a ssn "456-424-1232" and moves to next field..............passed
+Then user gets a warning of an invalid field entry..........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Negative_User_Registration_Attempt" name="_6" time="4.824">
+    <testcase classname="Unknown" name="_6" time="0.87">
         <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "778-85-6789".......................................passed
-And user puts in a first name as "a"........................................passed
-And user puts in a last name as ""..........................................passed
-And user puts in a username as "akayaad"....................................passed
-And user puts in an email as "akayas@email.com".............................passed
-When user puts in "Adfg123@." and confirm the new password..................passed
-And user registers the information..........................................passed
-Then registration is not completed successfully.............................passed
+When user puts in a ssn "123-424-123" and moves to next field...............passed
+Then user gets a warning of an invalid field entry..........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Negative_User_Registration_Attempt" name="_7" time="4.247">
+    <testcase classname="Unknown" name="_7" time="0.833">
         <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "778-85-6789".......................................passed
-And user puts in a first name as "a"........................................passed
-And user puts in a last name as "k".........................................passed
-And user puts in a username as ""...........................................passed
-And user puts in an email as "akayas@email.com".............................passed
-When user puts in "Adfg123@." and confirm the new password..................passed
-And user registers the information..........................................passed
-Then registration is not completed successfully.............................passed
+When user puts in a ssn "123-424-23" and moves to next field................passed
+Then user gets a warning of an invalid field entry..........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Negative_User_Registration_Attempt" name="_8" time="4.526">
+    <testcase classname="Unknown" name="_8" time="0.901">
         <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "778-85-6789".......................................passed
-And user puts in a first name as "a"........................................passed
-And user puts in a last name as "k".........................................passed
-And user puts in a username as "akayaad"....................................passed
-And user puts in an email as "".............................................passed
-When user puts in "Adfg123@." and confirm the new password..................passed
-And user registers the information..........................................passed
-Then registration is not completed successfully.............................passed
+When user puts in a ssn "000-23-4235" and moves to next field...............passed
+Then user gets a warning of an invalid field entry..........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Negative_User_Registration_Attempt" name="_9" time="5.066">
+    <testcase classname="Unknown" name="_9" time="0.883">
         <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "778-85-6789".......................................passed
-And user puts in a first name as "a"........................................passed
-And user puts in a last name as "k".........................................passed
-And user puts in a username as "akayaad"....................................passed
-And user puts in an email as "akayas@"......................................passed
-When user puts in "Adfg123@." and confirm the new password..................passed
-And user registers the information..........................................passed
-Then registration is not completed successfully.............................passed
+When user puts in a ssn "900-24-1423" and moves to next field...............passed
+Then user gets a warning of an invalid field entry..........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Negative_User_Registration_Attempt" name="_10" time="5.298">
+    <testcase classname="Unknown" name="_10" time="0.892">
         <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "778-85-6789".......................................passed
-And user puts in a first name as "a"........................................passed
-And user puts in a last name as "k".........................................passed
-And user puts in a username as "akayaad"....................................passed
-And user puts in an email as "akayas@email.com".............................passed
-When user puts in "" and confirm the new password...........................passed
-And user registers the information..........................................passed
-Then registration is not completed successfully.............................passed
+When user puts in a ssn "956-24-1243" and moves to next field...............passed
+Then user gets a warning of an invalid field entry..........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Negative_User_Registration_Attempt" name="_11" time="4.286">
+    <testcase classname="Unknown" name="_11" time="0.882">
         <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "778-85-6789".......................................passed
-And user puts in a first name as "a"........................................passed
-And user puts in a last name as "k".........................................passed
-And user puts in a username as "akayaad"....................................passed
-And user puts in an email as "akayas@email.com".............................passed
-When user puts in "A" and confirm the new password..........................passed
-And user registers the information..........................................passed
-Then registration is not completed successfully.............................passed
+When user puts in a ssn "666-24-1423" and moves to next field...............passed
+Then user gets a warning of an invalid field entry..........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Negative_User_Registration_Attempt" name="_12" time="4.647">
+    <testcase classname="Unknown" name="_12" time="0.953">
         <system-out><![CDATA[Given user is on the registration page......................................passed
-When user puts in a ssn "778-85-6789".......................................passed
-And user puts in a first name as "a"........................................passed
-And user puts in a last name as "k".........................................passed
-And user puts in a username as "akayaad"....................................passed
-And user puts in an email as "akayas@email.com".............................passed
-When user puts in "Asd" and confirm the new password........................passed
-And user registers the information..........................................passed
-Then registration is not completed successfully.............................passed
+When user puts in a ssn "34.-42-1523" and moves to next field...............passed
+Then user gets a warning of an invalid field entry..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="_13" time="0.848">
+        <system-out><![CDATA[Given user is on the registration page......................................passed
+When user puts in a ssn "54?-42-1523" and moves to next field...............passed
+Then user gets a warning of an invalid field entry..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="_14" time="0.893">
+        <system-out><![CDATA[Given user is on the registration page......................................passed
+When user puts in a ssn "65&-42-1523" and moves to next field...............passed
+Then user gets a warning of an invalid field entry..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="_15" time="0.987">
+        <system-out><![CDATA[Given user is on the registration page......................................passed
+When user puts in a ssn "34A-42-1523" and moves to next field...............passed
+Then user gets a warning of an invalid field entry..........................passed
 ]]></system-out>
     </testcase>
 </testsuite>
