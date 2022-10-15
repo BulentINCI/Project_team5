@@ -48,11 +48,17 @@ public class RegistrationPage {
     @FindBy(xpath="//*[@class='text-danger form-group']")
     public WebElement nonCompleteFieldsAlert;
 
+    @FindBy(xpath="//div[.='Your SSN is invalid']")
+    public WebElement invalidSsnAlert;
+
+    @FindBy(xpath="//*[@class='is-touched is-dirty av-invalid is-invalid form-control']")
+    public WebElement invalidEntryAlert;
+
+    @FindBy(xpath="//*[@class='is-touched is-dirty av-valid form-control']")
+    public WebElement validEntryCheck;
 
 
-//    @FindBy(xpath="//div[.='Your SSN is invalid']")
-//    public WebElement invalidSsnAlert;
-//
+
 //    @FindBy(xpath="//div[.='Your FirstName is required.']")
 //    public WebElement firstNameAlert;
 //
