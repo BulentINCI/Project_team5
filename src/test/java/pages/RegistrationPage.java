@@ -57,6 +57,11 @@ public class RegistrationPage {
     @FindBy(xpath="//*[@class='is-touched is-dirty av-valid form-control']")
     public WebElement validEntryCheck;
 
+    @FindBy(xpath="//*[@class='is-touched is-pristine av-invalid is-invalid form-control']")
+    public WebElement blankEntryError;
+
+
+
 
 
 //    @FindBy(xpath="//div[.='Your FirstName is required.']")

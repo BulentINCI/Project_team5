@@ -6,7 +6,8 @@ Feature: Registration
 
   Scenario Outline:Positive_scenario
     When user puts in a ssn "<ssn>" and moves to next field
-    Then ssn field does not give any errors
+    Then input field does not give any errors
+    And user closes the browser
 
     Examples:
       |ssn        |firstname|lastname|username|email          |password|

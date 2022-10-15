@@ -19,7 +19,7 @@ import java.util.Locale;
         },
         features = "./src/test/resources/features/ui_features",
         glue = {"stepdefinitions"},
-        tags = "@ssn_negative_scenarios",
+        tags = "@registration_lastname_negative_cases",
         dryRun = false
 )
 
