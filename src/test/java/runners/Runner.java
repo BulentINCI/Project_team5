@@ -17,9 +17,9 @@ import java.util.Locale;
                 "rerun:target/failedRerun.txt",
 
         },
-        features = "./src/test/resources/features/ui_features",
+        features = "./src/test/resources/features",
         glue = {"stepdefinitions"},
-        tags = "@registration_lastname_negative_cases",
+        tags = "@registration_firstname",
         dryRun = false
 )
 
