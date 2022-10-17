@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="22.794">
+    <testcase classname="checking_if_registrant_saved" name="_2" time="22.358">
+        <system-out><![CDATA[Given user puts in "323-45-1740""omer""fhanca""c2346@ail.com""ftanca""oKanca+23?" information.passed
+And user registers the information..........................................passed
+Then database is checked whether the user is registered all correctly.......passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -87,12 +87,4 @@ public class RegistrationStepDefs {
     public void user_gets_a_warning_of_an_invalid_field_entry() {
        Assert.assertTrue(registrationPage.invalidEntryAlert.isDisplayed());
     }
-
-
 }
-
-
-
-//Get all registrant information using swagger and validate them
-//Create registrants using api and validate
-//Validate registrant SSN ids with DB
